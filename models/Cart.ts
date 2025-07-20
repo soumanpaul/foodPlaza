@@ -1,5 +1,5 @@
-import { MenuItem } from "../models/MenuItem"; // Adjust path as needed
-import { Restaurant } from "../models/Restaurant"; // Adjust path as needed
+import { MenuItem } from "./MenuItem"; // Adjust path as needed
+import { Restaurant } from "./Restaurant"; // Adjust path as needed
 
 export class Cart {
   private restaurant: Restaurant | null;
